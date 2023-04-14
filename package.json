@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "firebase": "^9.19.1"
+    "firebase": "^9.19.1",
+    "latest-version": "^7.0.0",
+    "nvm": "^0.0.4",
+    "update": "^0.4.2"
   }
 }
