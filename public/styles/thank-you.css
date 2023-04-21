@@ -14,31 +14,42 @@ body, html{
     padding:20%;
     height: 30vh;
 } */
+.square {
+  position: relative;
+  width: 50%;
+  border: 1em solid;
+  color: white;
+  padding: 2em;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: auto;
+}
+
 
 .box-wrapper{
     background-color: black;
     margin:0;
-    padding:10%;
-}
-
-.box {
-    border: 1em solid;
-    color: white;
-    padding: 2em;
+    padding: 10% 20%;
 }
 
 .main-content {
     background-color: #0D355A;
-    height: 100%;
-    width: 100%;
     margin: 0;
     padding: 0;
 }
+
 .text-1 {
     margin: 0;
     padding: 1em;
     color: white;
 
+}
+
+.thank-you{
+    font-size: 3rem;
 }
 
 /*@media screen and ( min-device-width: 870px) {
